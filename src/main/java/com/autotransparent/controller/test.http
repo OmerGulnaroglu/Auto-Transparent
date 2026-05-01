@@ -1,0 +1,10 @@
+### Araç Ekleme İsteği
+POST http://localhost:8080/api/usta/vehicles/add
+Content-Type: application/json
+
+{
+  "brand": "Toyota",
+  "model": "Corolla",
+  "plate": "06ABC001",
+  "ownerId": 1
+}
